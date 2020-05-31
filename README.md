@@ -59,6 +59,8 @@ Create Flask app in Container
 Run via kubectl
 
 ## Kubernetes Clean Up
+
 kubectl delete deployment.apps/app
+
 kubectl delete svc app
 
