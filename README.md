@@ -28,23 +28,19 @@ The goal of this project is to operationalize this working, machine learning mic
 ### Running `app.py`
 
 **Standalone:**
-app.py contains the web app built using flask framework.
-
+app.py contains the web app built using flask framework.\
 python app.py
 
-**Run in Docker:**
-run_docker.sh contains the script to run the app in the docker.
-
+### Run in Docker:
+run_docker.sh contains the script to run the app in the docker.\
 ./run_docker.sh
 
-**Run in Kubernetes:**
-run_kubernetes.sh contains the script to run app in the Kubernetes.
-
+### Run in Kubernetes:
+run_kubernetes.sh contains the script to run app in the Kubernetes.\
 ./run_kubernetes.sh
 
 ## Verify that application is running
-make_prediction.sh contains the script to check the predictions.
-
+make_prediction.sh contains the script to check the predictions.\
 ./make_prediction.sh
 
 ### Upload to Docker Hub 
